@@ -1,0 +1,1 @@
+py .\account-checker\main.py
