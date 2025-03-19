@@ -170,7 +170,7 @@ def LogarConta(username, password):
             ff.close()
 
             ctypes.windll.kernel32.SetConsoleTitleW(f">> +1 Contas Valida! Total: [{validos}] <<")
-            Logger('Sucesso! Conta foi insirida em [white u]minhascontas.txt[/white u]', 1)
+            Logger('Sucesso! Conta foi inserida em [white u]minhascontas.txt[/white u]', 1)
 
             MudouASenha = True
             driver.quit()
